@@ -26,6 +26,7 @@ public class MAINContainer extends AppCompatActivity
 
     MenuItem mPreviousMenuItem;
     String userType;
+    MAINAppData isLoggedInUser;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +37,15 @@ public class MAINContainer extends AppCompatActivity
 
         //Getting user type from the main data.
         userType = MAINAppData.userType;
+
+        isLoggedInUser = new MAINAppData(getApplicationContext());
+        if(!isLoggedInUser.isLoggedIn()){
+            Intent intent = new Intent(this, MAINLoginActivity.class);
+            startActivity(intent);
+            finish();
+        }
+
+        // TODO: HANDLE SAVED INSTANCE
 
         MAINUserProfile mainUserProfile = new MAINUserProfile();
         getSupportFragmentManager().beginTransaction().add(R.id.contentFragment, mainUserProfile).commit();

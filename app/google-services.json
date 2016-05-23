@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "983346180510",
+    "project_id": "nu-a43b8"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983346180510:android:81f2652d46ca5510",
+        "android_client_info": {
+          "package_name": "q2.niituniversity.nu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "983346180510-62juh89l8no3inlmmoav98oq3h4amclm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "q2.niituniversity.nu",
+            "certificate_hash": "2E64C86929321F2A5C4C727117C1297780F77B69"
+          }
+        },
+        {
+          "client_id": "983346180510-ifjq20t64oapgsq0pititi6uqbsr2fra.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgZQDTfGQ9rC4ukrGDs5jWc_aM-5HcHR4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
